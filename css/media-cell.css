@@ -1,0 +1,164 @@
+@media screen and (max-width: 991.98px) {
+
+    .container {
+        background-position: center;
+    }
+
+    header {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .divisoes {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 90vh;
+        padding: 100px 0;
+    }
+
+    /**** CONFIGURAÇÃO LADO ESQUERDO ****/
+
+    .esquerda {
+        width: 100%;
+    }
+
+    .esquerda .titulo {
+        display: flex;
+    }
+
+    .esquerda .titulo h1 {
+        width: 370px;
+        font-size: 30px;
+        margin: auto;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .esquerda .subtitulo {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .esquerda .primeiro-email {
+        text-align: center;
+    }
+
+    .esquerda .primeiro-email input {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .esquerda .primeiro-email button {
+        width: 90%;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .esquerda .programas {
+        width: 90%;
+        display: flex;
+        gap: 10px;
+        text-align: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    /**** CONFIGURAÇÃO LADO DIREITO ****/
+
+    .direita {
+        display: none;
+    }
+
+    /**** CONFIGURAÇÃO DAS INFORMAÇÕES ****/
+
+    .infos {
+        width: 100%;
+        margin: auto;
+    }
+
+    .infos div {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .infos div p {
+        font-size: 15px;
+    }
+
+    /**** CONFIGURAÇÃO DAS DUVIDAS ****/
+
+    .container-duvidas {
+        width: 80%;
+        margin: auto;
+    }
+
+    .texto-duvidas {
+        margin-left: 30px;
+    }
+
+    .texto-duvidas h2 {
+        font-size: 28px;
+    }
+
+    .texto-duvidas p {
+        width: 100%;
+    }
+
+    /**** CONFIGURAÇÃO DO FUMULARIO DO RODAPE ****/
+
+    .container-email-rodape {
+        display: block;
+        width: 100%;
+    }
+
+    .texto-email-rodape {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .texto-email-rodape h2 {
+        font-size: 30px;
+    }
+
+    .ultimo-email {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ultimo-email p {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .form-rodape {
+        width: 90%;
+        align-items: center;
+    }
+
+    .form-rodape input {
+        padding: 15px;
+        width: 90%;
+    }
+
+    .form-rodape button {
+        padding: 10px;
+        width: 90%;
+    }
+
+    /**** CONFIGURAÇÃO DO RODAPÉ ****/
+
+    footer {
+        text-align: center;
+    }
+
+    footer img {
+        margin: 0;
+    }
+}
